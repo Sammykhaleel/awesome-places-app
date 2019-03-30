@@ -32,7 +32,9 @@ class AuthScreen extends Component {
                     <DefaultInput placeholder="Password" style={styles.input} />
                     <DefaultInput placeholder="Confirm Password" style={styles.input} />
                 </View>
-                <ButtonWithBackground>Submit</ButtonWithBackground> 
+                <ButtonWithBackground color="#29aaf4" onPress={this.loginHandler}>
+                    Submit
+                </ButtonWithBackground> 
                 </View>
             </ImageBackground>
         );
