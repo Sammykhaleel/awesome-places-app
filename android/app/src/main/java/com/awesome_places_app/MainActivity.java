@@ -1,5 +1,7 @@
 package com.awesome_places_app;
 
+
+
 import com.reactnativenavigation.controllers.SplashActivity;
 
 public class MainActivity extends SplashActivity {
@@ -12,4 +14,5 @@ public class MainActivity extends SplashActivity {
     // protected String getMainComponentName() {
     //     return "awesome_places_app";
     // }
+
 }
